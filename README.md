@@ -1,33 +1,15 @@
 # Al-control
 ## 나의 첫번 쨰 마크다운 파일
-```html
-<a href="https://www.google.co.kr/" target="_blank">GOOGLE</a>
-```
+| 값 | 의미 | 기본값 |
+|---|:---:|---:|
+| `static` | 유형(기준) 없음 / 배치 불가능 | `static` |
+| `relative` | 요소 자신을 기준으로 배치 |  |
+| `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 |  |
+| `fixed` | 브라우저 창을 기준으로 배치 |  |
 
-```css
-.list > li {
-  position: absolute;
-  top: 40px;
-}
-```
-
-```javascript
-function func() {
-  var a = 'AAA';
-  return a;
-}
-```
-
-```bash
-$ vim ./~zshrc
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a tag.
-```
+값 | 의미 | 기본값
+---|:---:|---:
+`static` | 유형(기준) 없음 / 배치 불가능 | `static`
+`relative` | 요소 **자신**을 기준으로 배치 |
+`absolute` | 위치 상 **_부모_(조상)요소**를 기준으로 배치 |
+`fixed` | **브라우저 창**을 기준으로 배치 |

@@ -9,4 +9,3 @@
 
 
 
-대체 텍스트(alternative text)를 입력하세요!
